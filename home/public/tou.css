@@ -1,0 +1,81 @@
+*{
+	margin:0px auto;
+	padding:0px;
+}
+/*页面头部样式*/
+#header{
+	width:975px;
+	height:50px;
+	border:1px solid gray;
+	margin:0px auto;
+
+}
+#header .swsy{
+	width:975px;
+	height:20px;
+}
+#header .swsy a{
+	text-decoration:none;
+	color:black;
+	font-size:5px;
+}
+#header .swsy a:hover{
+	text-decoration:underline;
+	font-size:15px;
+	color:blue;
+}
+#header .top{
+	width:975px;
+	height:66px;
+	border:;
+}
+#header .top .discuz{
+	width:400px;
+	height:66px;
+	float:left;
+}
+#header .top .top-right{
+	width:575px;
+	height:25px;
+	border:;
+	list-style:none;
+	float:right;
+	margin-top:-65px;
+	margin-right:65px;
+}
+#header .top .top-right ul{
+	list-style:none;
+	float:;
+	
+}
+#header .top .top-right ul li a{
+	float:left;
+	line-height:30px;
+	text-align:right;
+	text-decoration:none;
+	margin-left:10px;
+}
+#header .top .top2{
+	width:400px;
+	height:30px;
+	border:;
+	float:right;
+	margin-top:-35px;
+	margin-right:75px;
+}
+#header .top .top3{
+	width:65px;
+	height:65px;
+	border:1px solid gray;
+	margin-top:-65px;
+	float:right;
+} 
+#header .top .top2 ul{
+	list-style:none;
+	float:;
+	padding-right:px;
+}
+#header .top .top2 ul li a{
+	text-decoration:none;
+	float:right;
+}

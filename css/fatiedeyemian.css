@@ -1,0 +1,189 @@
+/*全部的样式*/
+body
+{
+	margin:0;
+	padding:0;
+}
+/*外面的大边框*/
+.border
+{
+	width:970px;
+	height:740px;
+	margin:0 auto;
+	border:0px;
+	border-style:solid;
+}
+ /*这个是最顶部第一行*/
+.top{
+	width:100%;
+	height:30px;
+	background-color:#F2F2F2;
+	font-size:13px;
+	}
+.top1{
+	margin-left:188px;
+	line-height:30px;
+	float:left;}
+.top a{
+	text-decoration:none;}
+.top a:hover{
+    text-decoration:underline;
+	color:#F00;}
+	
+.top2{
+	float:right;
+	margin-right:180px;}
+	
+	
+	
+	
+	/*这个是第二行*/
+.dierge
+{
+	width:970px;
+	height:85px;
+	background-color:#FAFBFD;}
+	
+.dierge1{
+	padding-top:10px;}	
+	
+	
+	
+		/*这个是第三行*/
+.disange
+{
+	width:970px;
+	height:35px;
+	background-color:#2B76C7;}
+.disange1{
+	float:left;}	
+
+.disange2{
+	float:right;
+	margin: 7px 10px;}
+	
+
+			/*这个是第四行*/
+.disige
+{
+	width:970px;
+	height:45px;
+	background-color:#E8EFF5;}
+.disige1{
+	width:410px;
+	height:30px;
+	margin-top:5px;
+	margin-left:-45px;}
+.disige2{
+	width:60px;
+	height:35px;}
+.disige3{
+	margin-left:490px;
+	margin-top:-38px;
+	float:left;}
+.disige4{
+	float:left;
+	margin-top:-27px;
+	font-size:13px;}
+.disige4 a{
+	text-decoration:none;}
+.disige4 a:hover{
+	text-decoration:underline;
+	color:#F00;}
+	
+
+.zhongjian{
+	width:100%;
+	height:700px;
+	 border:1px;
+	border-color:red;
+	border-style:solid; 
+}	
+.neirong1{
+	width:100%;
+	height:35px;
+	 border:1px;
+	border-color:blue;
+	border-style:solid; 
+}
+.neirong2{
+	width:25px;
+	height:20px;
+	padding:5px 0px 5px 0px;
+	float:left;
+}
+.neirong3{
+	float:left;
+	margin-top:6px;
+	margin-left:4px;
+}
+.neirong5{
+	float:left;
+	margin-top:6px;
+}
+.neirong6{
+	font-size:12px;
+	margin-top:9px;
+	margin-left:6px;
+	float:left;
+}
+.neirong6 a{
+	text-decoration:none;
+}
+.neirong6 a:hover{
+	text-decoration:underline;
+	color:red;
+}
+/*标题的地方*/	
+.biti{
+	width:300px;
+	height:25px;
+	margin:50px 0px 0px 0px;;
+}
+.fatieneirong{
+	width:930px;
+	height:450px;
+	resize:none;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+/*这个是底部
+水平线*/
+.shuipingxian{
+	margin-top:20px;}
+.dibu{
+	height:80px;
+	width:970px;}
+.dibuleft{
+	margin-top:20px;
+	float:left;}
+.diburight{
+	float:right;
+	font-size:14px;
+	margin-top:20px;}
+.diburight a{
+	text-decoration:none;}
+.diburight a:hover{
+	text-decoration:underline;
+	color:#F00;}
+	

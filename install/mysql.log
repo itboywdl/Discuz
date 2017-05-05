@@ -1,0 +1,308 @@
+-- MySQL dump 10.13  Distrib 5.7.10, for Win64 (x86_64)
+--
+-- Host: localhost    Database: zxcvbn
+-- ------------------------------------------------------
+-- Server version	5.5.5-10.1.13-MariaDB
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `cate`
+--
+
+DROP TABLE IF EXISTS `cate`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `cate` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `pid` int(10) unsigned DEFAULT NULL,
+  `cname` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=69 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `cate`
+--
+
+LOCK TABLES `cate` WRITE;
+/*!40000 ALTER TABLE `cate` DISABLE KEYS */;
+INSERT INTO `cate` VALUES (20,2,'999999999'),(30,26,'34'),(52,35,'下衣'),(48,33,'辣条'),(28,12,'77'),(29,12,'88'),(51,35,'上衣'),(45,32,'王者荣耀'),(44,32,'英雄联盟'),(68,49,'444');
+/*!40000 ALTER TABLE `cate` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `glch`
+--
+
+DROP TABLE IF EXISTS `glch`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `glch` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `ch` varchar(200) DEFAULT NULL,
+  `thch` varchar(200) DEFAULT NULL,
+  `kg` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `glch`
+--
+
+LOCK TABLES `glch` WRITE;
+/*!40000 ALTER TABLE `glch` DISABLE KEYS */;
+INSERT INTO `glch` VALUES (17,'123','456',2),(16,'兄弟连','兄弟连中心',1),(15,'习大大','***',2),(14,'蛇精病','###',1);
+/*!40000 ALTER TABLE `glch` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `hsz`
+--
+
+DROP TABLE IF EXISTS `hsz`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `hsz` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `cid` int(11) DEFAULT NULL,
+  `title` varchar(100) DEFAULT NULL,
+  `content` varchar(200) DEFAULT NULL,
+  `ptime` varchar(50) DEFAULT NULL,
+  `uid` int(11) DEFAULT NULL,
+  `pip` int(11) DEFAULT NULL,
+  `count` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=81 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `hsz`
+--
+
+LOCK TABLES `hsz` WRITE;
+/*!40000 ALTER TABLE `hsz` DISABLE KEYS */;
+INSERT INTO `hsz` VALUES (80,52,'33','33','2017-02-13 08:30:09',84,NULL,NULL);
+/*!40000 ALTER TABLE `hsz` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `jip`
+--
+
+DROP TABLE IF EXISTS `jip`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `jip` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `bip` varchar(100) DEFAULT NULL,
+  `kg` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `jip`
+--
+
+LOCK TABLES `jip` WRITE;
+/*!40000 ALTER TABLE `jip` DISABLE KEYS */;
+INSERT INTO `jip` VALUES (1,'127.0.0.1',2);
+/*!40000 ALTER TABLE `jip` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `part`
+--
+
+DROP TABLE IF EXISTS `part`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `part` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `pname` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=50 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `part`
+--
+
+LOCK TABLES `part` WRITE;
+/*!40000 ALTER TABLE `part` DISABLE KEYS */;
+INSERT INTO `part` VALUES (35,'衣服专区'),(33,'食品分区'),(32,'游戏分区'),(49,'44');
+/*!40000 ALTER TABLE `part` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `post`
+--
+
+DROP TABLE IF EXISTS `post`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `post` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `cid` int(10) unsigned DEFAULT NULL,
+  `title` varchar(32) DEFAULT NULL,
+  `content` varchar(500) DEFAULT NULL,
+  `ptime` varchar(50) DEFAULT NULL,
+  `uid` int(10) unsigned DEFAULT NULL,
+  `pip` int(10) unsigned DEFAULT NULL,
+  `count` int(10) unsigned DEFAULT NULL,
+  `kg` int(11) DEFAULT '1',
+  `pic` varchar(100) DEFAULT 'default.jpg',
+  `zhiding` int(11) DEFAULT '2',
+  `jiajing` int(11) DEFAULT '2',
+  `gaoliang` int(11) DEFAULT '2',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=264 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `post`
+--
+
+LOCK TABLES `post` WRITE;
+/*!40000 ALTER TABLE `post` DISABLE KEYS */;
+INSERT INTO `post` VALUES (262,52,'123','23','2017-02-13 08:30:06',84,NULL,NULL,1,'default.jpg',2,2,2),(263,52,'12','12','2017-02-13 08:47:22',84,2130706433,NULL,1,'',2,1,1);
+/*!40000 ALTER TABLE `post` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `reply`
+--
+
+DROP TABLE IF EXISTS `reply`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `reply` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `pid` int(10) unsigned DEFAULT NULL,
+  `content` text,
+  `uid` int(10) unsigned DEFAULT NULL,
+  `ptime` varchar(50) DEFAULT NULL,
+  `pip` int(10) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=169 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `reply`
+--
+
+LOCK TABLES `reply` WRITE;
+/*!40000 ALTER TABLE `reply` DISABLE KEYS */;
+/*!40000 ALTER TABLE `reply` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `user`
+--
+
+DROP TABLE IF EXISTS `user`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `user` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) DEFAULT NULL,
+  `password` char(32) DEFAULT NULL,
+  `sex` tinyint(4) DEFAULT '1',
+  `aihao` varchar(30) DEFAULT NULL,
+  `qx` tinyint(4) NOT NULL DEFAULT '1',
+  `sign` varchar(200) DEFAULT NULL,
+  `rip` int(11) DEFAULT NULL,
+  `rtime` int(11) DEFAULT NULL,
+  `pic` varchar(50) DEFAULT 'default.jpg',
+  `email` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username` (`username`)
+) ENGINE=MyISAM AUTO_INCREMENT=161 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `user`
+--
+
+LOCK TABLES `user` WRITE;
+/*!40000 ALTER TABLE `user` DISABLE KEYS */;
+INSERT INTO `user` VALUES (151,'v','9e3669d19b675bd57058fd4664205d2a',1,'1',1,'',NULL,NULL,'default.jpg','v'),(140,'bbb','08f8e0260c64418510cefb2b06eee5cd',1,'1',1,'',2130706433,1486648664,'14866535123709.jpg',NULL),(141,'z1123','202cb962ac59075b964b07152d234b70',1,'1',1,'',2130706433,1486648977,'14866535568159.jpg',NULL),(142,'qqee','099b3b060154898840f0ebdfb46ec78f',1,'1',1,'',2130706433,1486652898,'14866535837139.jpg',NULL),(143,'gghh','a3aca2964e72000eea4c56cb341002a4',1,'1',1,'',2130706433,1486653970,'14866539872439.jpg',NULL),(144,'asdasd','47bce5c74f589f4867dbd57e9ca9f808',1,NULL,1,NULL,2130706433,1486654045,'default.jpg',NULL),(145,'qqq111','47bce5c74f589f4867dbd57e9ca9f808',1,'1',1,'',2130706433,1486654166,'14866541823005.jpg',NULL),(135,'asdas','47bce5c74f589f4867dbd57e9ca9f808',1,NULL,1,NULL,2130706433,1486648376,'default.jpg',NULL),(134,'x','9dd4e461268c8034f5c8564e155c67a6',NULL,NULL,1,NULL,NULL,NULL,'default.jpg','x'),(133,'777','6512bd43d9caa6e02c990b0a82652dca',1,'1',1,'',2130706433,1486629146,'default.jpg',NULL),(120,'1','c4ca4238a0b923820dcc509a6f75849b',NULL,NULL,1,NULL,NULL,NULL,'default.jpg','1'),(116,'vvv','4786f3282f04de5b5c7317c490c6d922',2,'1',2,'																																																																																																																	v	1																																																																												',NULL,NULL,'14867259557613.jpg','vvv'),(136,'aaaa','47bce5c74f589f4867dbd57e9ca9f808',1,NULL,1,NULL,2130706433,1486648456,'default.jpg',NULL),(113,'qwee','b2ca678b4c936f905fb82f2733f5297f',NULL,NULL,1,NULL,NULL,NULL,'default.jpg','qq'),(115,'zzz1','f3abb86bd34cf4d52698f14c0da1dc60',NULL,NULL,1,'			z	',NULL,NULL,'14864401778992.jpg','zzz'),(92,'wei123456','fcea920f7412b5da7be0cf42b8c93759',1,NULL,2,NULL,2130706433,1485000730,'default.jpg',NULL),(89,'lamp176','4297f44b13955235245b2497399d7a93',1,NULL,2,NULL,2130706433,1484990275,'default.jpg',NULL),(114,'qwww','4eae35f1b35977a00ebd8086c259d4c9',NULL,NULL,1,NULL,NULL,NULL,'default.jpg','www'),(110,'xxx','f561aaf6ef0bf14d4208bb46a4ccb3ad',NULL,NULL,1,NULL,NULL,NULL,'default.jpg','x'),(111,'zz','25ed1bcb423b0b7200f485fc5ff71c8e',NULL,NULL,1,NULL,NULL,NULL,'default.jpg','zzz'),(84,'admin','21232f297a57a5a743894a0e4a801fc3',1,NULL,2,'																																							s																																									',2130706433,1484989466,'14869096136828.jpg',NULL),(86,'weidongliang','81dc9bdb52d04dc20036dbd8313ed055',1,NULL,1,NULL,2130706433,1484989725,'default.jpg',NULL),(83,'123456','',1,'1',2,'',2130706433,1484989441,'14853250956413.jpg',NULL),(108,'ffff','343d9040a671c45832ee5381860e2996',NULL,NULL,1,NULL,NULL,NULL,'default.jpg','fff'),(109,'ggg','ba248c985ace94863880921d8900c53f',NULL,NULL,1,NULL,NULL,NULL,'default.jpg','ggg'),(107,'vvvv','4786f3282f04de5b5c7317c490c6d922',NULL,NULL,1,NULL,NULL,NULL,'default.jpg','v'),(106,'admin1','21232f297a57a5a743894a0e4a801fc3',NULL,NULL,1,NULL,NULL,NULL,'default.jpg','admin'),(147,'qwe','76d80224611fc919a5d54f0ff9fba446',NULL,NULL,2,NULL,NULL,NULL,'default.jpg',NULL),(148,'h','2510c39011c5be704182423e3a695e91',NULL,NULL,1,'					',NULL,NULL,'default.jpg','h'),(149,'nihao','194ce5d0b89c47ff6b30bfb491f9dc26',0,'1',2,'',NULL,NULL,'default.jpg','a'),(150,'k','8ce4b16b22b58894aa86c421e8759df3',0,'1',2,'',NULL,NULL,'default.jpg','k'),(152,'t','e358efa489f58062f10dd7316b65649e',1,'1',1,'',NULL,NULL,'default.jpg','t'),(153,'we','ff1ccf57e98c817df1efcd9fe44a8aeb',1,NULL,0,NULL,NULL,NULL,'default.jpg','we'),(154,'g','b2f5ff47436671b6e533d8dc3614845d',1,NULL,1,NULL,0,NULL,'default.jpg','g'),(155,'nz','c4ca4238a0b923820dcc509a6f75849b',1,'1',2,'',0,NULL,'default.jpg','1'),(157,'ppp','f27f6f1c7c5cbf4e3e192e0a47b85300',1,NULL,1,NULL,2130706433,1486903547,'default.jpg',NULL),(158,'zxc','f561aaf6ef0bf14d4208bb46a4ccb3ad',1,NULL,1,NULL,2130706433,1486911251,'default.jpg',NULL),(159,'lmk','2705b305fd867472621e686230a59bf3',1,NULL,1,NULL,2130706433,1486911285,'default.jpg',NULL),(160,'tyg','1ec899a16eb648cd2d46e7d2c635329c',1,NULL,1,NULL,2130706433,1486911317,'default.jpg',NULL);
+/*!40000 ALTER TABLE `user` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wzpz`
+--
+
+DROP TABLE IF EXISTS `wzpz`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `wzpz` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `wzname` varchar(20) DEFAULT NULL,
+  `wzconst` varchar(20) DEFAULT NULL,
+  `wzbq` varchar(20) DEFAULT NULL,
+  `wzgb` varchar(20) DEFAULT NULL,
+  `wzlogo` varchar(200) DEFAULT 'default.jpg',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wzpz`
+--
+
+LOCK TABLES `wzpz` WRITE;
+/*!40000 ALTER TABLE `wzpz` DISABLE KEYS */;
+INSERT INTO `wzpz` VALUES (7,'a','a','a',NULL,''),(8,'aa','aa','aa',NULL,'default.jpg'),(9,'bb','bb','bb',NULL,'default.jpg');
+/*!40000 ALTER TABLE `wzpz` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `yqlj`
+--
+
+DROP TABLE IF EXISTS `yqlj`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `yqlj` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(50) DEFAULT NULL,
+  `url` varchar(50) DEFAULT NULL,
+  `pic` varchar(100) DEFAULT 'default.jpg',
+  `xq` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=38 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `yqlj`
+--
+
+LOCK TABLES `yqlj` WRITE;
+/*!40000 ALTER TABLE `yqlj` DISABLE KEYS */;
+INSERT INTO `yqlj` VALUES (17,'谷歌','www.guge.com','14868067377445.jpg','谷歌是一个搜索引擎！！！！'),(16,'猎豹','www.liebao.com','14868067028663.jpg','猎豹也是一种搜索引擎！！！'),(12,'火狐','www.huohu.com','14868067077451.jpg','火狐也是一种搜索引擎！！！');
+/*!40000 ALTER TABLE `yqlj` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2017-02-13 11:29:23

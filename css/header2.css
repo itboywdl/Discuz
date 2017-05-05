@@ -1,0 +1,68 @@
+*{
+	margin:0px auto;
+	padding:0px;
+}
+/*页面头部样式*/
+#header{
+	width:975px;
+	height:66px;
+	margin:0px auto;
+	clear:both;
+}
+
+#header .swsy a:hover{
+	text-decoration:underline;
+	font-size:15px;
+	color:blue;
+}
+#header .top{
+	width:975px;
+	height:66px;
+}
+#header .top .discuz{
+	width:300px;
+	height:66px;
+	float:left;
+}
+#header .top .top-right{
+	width:450px;
+	height:25px;
+	list-style:none;
+	float:right;
+	margin-right:px;
+}
+#header .top .top-right ul{
+	list-style:none;
+	float:;
+	
+}
+#header .top .top-right ul li a{
+	float:left;
+	line-height:30px;
+	text-align:right;
+	text-decoration:none;
+	margin-left:10px;
+}
+#header .top .top2{
+	width:400px;
+	height:30px;
+
+	float:right;
+	margin-top:px;
+	margin-right:80px;
+}
+#header .top .top3{
+	width:65px;
+	height:65px;
+
+	margin-top:-55px;
+	margin-left:500px;
+	float:right;
+} 
+#header .top .top2 ul{
+	list-style:none;
+}
+#header .top .top2 ul li a{
+	text-decoration:none;
+	float:right;
+}

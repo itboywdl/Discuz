@@ -1,0 +1,269 @@
+/*全部的样式*/
+body
+{
+	margin:0;
+	padding:0;
+}
+/*外面的大边框*/
+.border
+{
+	width:970px;
+	height:740px;
+	margin:0 auto;
+	border:0px;
+	border-style:solid;
+}
+ /*这个是最顶部第一行*/
+.top{
+	width:100%;
+	height:30px;
+	background-color:#F2F2F2;
+	font-size:13px;
+	}
+.top1{
+	margin-left:188px;
+	line-height:30px;
+	float:left;}
+.top a{
+	text-decoration:none;}
+.top a:hover{
+    text-decoration:underline;
+	color:#F00;}
+	
+.top2{
+	float:right;
+	margin-right:180px;}
+	
+	
+	
+	
+	/*这个是第二行*/
+.dierge
+{
+	width:970px;
+	height:85px;
+	background-color:#FAFBFD;}
+	
+.dierge1{
+	padding-top:10px;}	
+	
+	
+	
+		/*这个是第三行*/
+.disange
+{
+	width:970px;
+	height:35px;
+	background-color:#2B76C7;}
+.disange1{
+	float:left;}	
+
+.disange2{
+	float:right;
+	margin: 7px 10px;}
+	
+
+			/*这个是第四行*/
+.disige
+{
+	width:970px;
+	height:45px;
+	background-color:#E8EFF5;}
+.disige1{
+	width:410px;
+	height:30px;
+	margin-top:5px;
+	margin-left:-45px;}
+.disige2{
+	width:60px;
+	height:35px;}
+.disige3{
+	margin-left:490px;
+	margin-top:-38px;
+	float:left;}
+.disige4{
+	float:left;
+	margin-top:-27px;
+	font-size:13px;}
+.disige4 a{
+	text-decoration:none;}
+.disige4 a:hover{
+	text-decoration:underline;
+	color:#F00;}
+	
+/*中间内容部分*/
+.zhongjian{
+	width:100%;
+	height:400px;
+	border:1px;
+	border-color:#CCCCCC;
+	border-style:solid;
+}
+.zhongjian1{
+	width:100%;
+	height:35px;
+	background:#F2F2F2;
+}
+.zhongjianleft{
+	width:85px;
+	height:35px;
+	padding:10px 15px;
+	float:left;
+}
+.zhongjianright{
+	width:150px;
+	height:35px;
+	float:right;
+}
+.zhongjianright1{
+	width:69px;
+	height:15px;
+	float:left;
+	font-size:12px;
+	padding:10px 3px;
+}
+.zhongjianright2{
+	width:69px;
+	height:15px;
+	float:right;
+	font-size:12px;
+	padding:10px 3px;
+}
+.zhongjianright a{
+	text-decoration:none;
+}
+.zhongjianright a:hover{
+	text-decoration:underline;
+	color:red;
+}
+.zhongjian2{
+	width:775px;
+	height:350px;
+	margin:0 auto;
+	margin-top:50px;
+	/*border:1px;
+	border-color:red;
+	border-style:solid;*/
+}
+.zhongjian21{
+	width:650px;
+	height:35px;
+	padding-left:100px;
+	border-bottom:1px;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+	border-style:dashed;
+	
+}
+.zhongjian22{
+	font-size:12px;
+	color:red;
+}
+.waimiankuang{
+	width:750px;
+	height:40px;
+	border-bottom:2px;
+	margin-left:10px;
+}
+.a1{
+	margin-left:-16px;
+}
+
+
+.zhongjian23{
+width:650px;
+	height:35px;
+	padding-left:100px;
+	border-bottom:1px;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+	border-style:dashed;
+}
+.zhongjian23 input{ 
+width:100px;
+}
+/*这是验证码换一个的代码*/
+.huanyige{
+	color:blue;
+	font-size:12px;
+}
+.huanyige a{
+	text-decoration:none;
+}
+.huanyige a:hover{
+	text-decoration:underline;
+	color:red;
+}
+
+.zhongjian231{
+	width:650px;
+	height:90px;
+	padding-left:100px;
+	border-bottom:1px;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+	border-style:dashed;
+}
+.zhongjian231 input{
+	width:100px;
+}
+.yanzhengma{
+	font-size:12px;
+	margin-left:75px;
+}	
+.yanzhengma input{
+	width:80px;
+}
+.yanzhengma1{
+	display:block;
+	width:110px;
+	height:35px;
+	border:1px;
+	border-color:red;
+	border-style:solid;
+	margin-left:65px;
+}
+.tijiao{
+	margin-left:200px;
+	margin-top:10px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+/*这个是底部
+水平线*/
+.shuipingxian{
+	clear:both;
+	margin-top:20px;}
+.dibu{
+	height:80px;
+	width:970px;}
+.dibuleft{
+	margin-top:20px;
+	float:left;}
+.diburight{
+	float:right;
+	font-size:14px;
+	margin-top:20px;}
+.diburight a{
+	text-decoration:none;}
+.diburight a:hover{
+	text-decoration:underline;
+	color:#F00;}
+	

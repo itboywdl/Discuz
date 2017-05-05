@@ -1,0 +1,19 @@
+1.doindex.php
+	登陆是否能进入前台的，账户密码进入
+2.index.php
+	是前台的主页
+3.yqlj.php
+	是友情链接,链接的地方
+4.zhuce.php
+	是用户注册的地方
+5.updatemima.php
+	是忘记密码的地方,修改密码
+
+
+
+
+
+表
+1.post是发贴
+2.get是回帖
+	

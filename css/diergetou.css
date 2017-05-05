@@ -1,0 +1,236 @@
+/*全部的样式*/
+body
+{
+	margin:0;
+	padding:0;
+}
+/*外面的大边框*/
+.border
+{
+	width:970px;
+	height:740px;
+	margin:0 auto;
+	border:1px;
+	border-color:red;
+	border-style:solid;
+}
+ /*这个是最顶部第一行*/
+.top{
+	width:100%;
+	height:30px;
+	background-color:#F2F2F2;
+	font-size:13px;
+	}
+.top1{
+	margin-left:188px;
+	line-height:30px;
+	float:left;}
+.top a{
+	text-decoration:none;}
+.top a:hover{
+    text-decoration:underline;
+	color:#F00;}
+	
+.top2{
+	float:right;
+	margin-right:180px;}
+	
+	
+/*这个是整体的边框*/
+#border{
+	width:970px;
+	height:900px;
+	/*background-color:#0F0;*/
+	margin:0 auto;}	
+	
+.dierhang{
+	height:80px;
+	width:100%;
+	font-size:13px}
+	
+.diergeleft{
+	height:70px;
+	width:150px;
+	float:left;
+	padding-top:10px;}	
+	
+.diergeright{
+	float:right;}
+	
+.diergeright1{
+	width:500px;
+	height:50px;
+	margin-top:12px;
+	margin-right:-20px;}
+	.diergeright1 a{
+		text-decoration:none;}
+			.diergeright1 a:hover{
+		text-decoration:underline;
+		color:red;}
+.diergeright{
+	width:450px;
+	height:100px;}
+.diergeright select{
+	border:0px;}
+.diergeright1{
+	float:left;}
+.diergeright2{
+	margin-left:10px;
+	float:left;}
+	.diergeright3{
+		width:70px;
+		height:20px;}
+.diergeright4 {
+	font-size:80px;
+	margin-top:-53px;
+	color:rgba(232,236,237,0.3);}
+.w {
+	margin-left:45px;}
+.zhongjian{
+	width:970px;
+	height:100%;
+	}
+.centera{
+	width:100%;
+	height:35px;
+		background-color:#266FBE;
+		}
+	.centera1{
+		float:right;
+		margin-top:-30px;}
+.centera2{
+	height:45px;
+	width:100%;
+	background-color:#E8EFF5;
+	margin-top:-2px;}
+.centera21{
+	width:400px;
+	height:20px;
+	margin-top:10px;
+	margin-left:10px;}
+.centera2 select{
+	height:26px;
+	width:60px;
+	}
+.centera4{
+	margin-left:480px;
+	margin-top:-30px;
+	}
+.centera5{
+	margin-top:-35px;
+	margin-left:540px;
+	font-size:15px;}
+.centera5 a{
+	text-decoration:none;}
+	.centera5 a:hover{
+	text-decoration:underline;
+	color:red;}
+	.centera6{
+		width:100%;
+		height:60px;
+		background-color:#FFFFFF;
+		}
+.centera7 img{
+	margin-top:10px;}
+.centera7 a{
+	font-size:14px;
+	text-decoration:none;}
+	.centera7 a:hover{
+	text-decoration:underline;
+	color:#F00;}
+.centera8{
+	width:100%;
+	height:85px;
+	background-color:#F00;}
+.centera9{
+	height:25px;
+	width:960px;
+	background-color:#EEF3F6;
+	padding-top:10px;
+	padding-left:10px;}
+.centera10
+{
+	background-color:#FFFFFF;
+	width:960px;
+	height:50px;
+	border:1px solid #CDCDCD;
+	padding-top:10px;
+	padding-left:10px;}
+	
+.centera10 a{
+	text-decoration:none;
+}
+.centera10 a:hover{
+	text-decoration:underline;
+	color:red;
+}
+.centera11{
+	width:100%;
+	height:130px;}
+.centera12 img{
+	margin:10px 0 0 10px;
+	float:left;}
+.centera13{
+	float:left;
+	margin-top:10px;}
+.centera14{
+	clear:both;
+	font-size:10px;}
+.centera15 ul li{
+	list-style:none;
+	float:left;
+	font-size:14px;
+	margin-top:10px;}
+.centera16{
+	clear:both;}
+.centera15 ul li a{
+	text-decoration:none;}
+.centera15 ul li a:hover{
+	text-decoration:underline;
+	color:red;}	
+
+/*这个是底部
+水平线*/
+.shuipingxian{
+	margin-top:20px;}
+.dibu{
+	height:80px;
+	width:970px;}
+.dibuleft{
+	margin-top:20px;
+	float:left;}
+.diburight{
+	float:right;
+	font-size:14px;
+	margin-top:20px;}
+.diburight a{
+	text-decoration:none;}
+.diburight a:hover{
+	text-decoration:underline;
+	color:#F00;}
+/*友情链接*/
+.yq{
+	height:115px;
+	width:100%;
+	border:1px;
+	border-color:gray;
+	border-style:solid;
+}
+/*输出好看输出一个框每一个分区*/
+.kuang{
+	height:330px;
+	width:100%;
+	border:1px;
+	border-color:#CDCDCD;
+	border-style:solid;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

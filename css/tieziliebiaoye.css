@@ -1,0 +1,299 @@
+/*全部的样式*/
+body
+{
+	margin:0;
+	padding:0;
+}
+/*外面的大边框*/
+.border
+{
+	width:970px;
+	height:100%;
+	margin:0 auto;
+}
+ /*这个是最顶部第一行*/
+.top{
+	width:100%;
+	height:30px;
+	background-color:#F2F2F2;
+	font-size:13px;
+	}
+.top1{
+	margin-left:188px;
+	line-height:30px;
+	float:left;}
+.top a{
+	text-decoration:none;}
+.top a:hover{
+    text-decoration:underline;
+	color:#F00;}
+	
+.top2{
+	float:right;
+	margin-right:180px;}
+	
+	
+	
+	
+	/*这个是第二行*/
+.dierge
+{
+	width:970px;
+	height:85px;
+	background-color:#FAFBFD;}
+	
+.dierge1{
+	padding-top:10px;}	
+	
+	
+	
+		/*这个是第三行*/
+.disange
+{
+	width:970px;
+	height:35px;
+	background-color:#2B76C7;}
+.disange1{
+	float:left;}	
+
+.disange2{
+	float:right;
+	margin: 7px 10px;}
+	
+
+			/*这个是第四行*/
+.disige
+{
+	width:970px;
+	height:45px;
+	background-color:#E8EFF5;}
+.disige1{
+	width:410px;
+	height:30px;
+	margin-top:5px;
+	margin-left:-45px;}
+.disige2{
+	width:60px;
+	height:35px;}
+.disige3{
+	margin-left:490px;
+	margin-top:-38px;
+	float:left;}
+.disige4{
+	float:left;
+	margin-top:-27px;
+	font-size:13px;}
+.disige4 a{
+	text-decoration:none;}
+.disige4 a:hover{
+	text-decoration:underline;
+	color:#F00;}
+	
+	
+
+	
+		
+					/*这个是第五行*/
+.diwuge
+{
+	margin-top:-15px;
+	width:970px;
+	height:30px;
+}
+.diwuge a{ text-decoration:none;
+font-family:黑体;}
+.diwuge a:hover{
+	text-decoration:underline;
+	color:#F00;}	
+	
+	
+	
+	
+	
+
+		
+		/*这个是第六行*/
+	
+	.diliuge
+{
+	width:970px;
+	height:40px;
+	background-color:#F2F2F2;}
+
+.diliuge{
+	width:970px;;
+	height:40px;}
+.diliuge2{
+	width:78px;
+	height:40px;
+	border:0px;
+	background-color:#F2F2F2;
+	float:left;}
+	.diliuge3{ float:left;
+	font-size:13px;
+	margin-top:15px;
+		}
+
+
+.diliuge3 a{
+	text-decoration:none;}
+.diliuge3 a:hover{
+	text-decoration:underline;
+	color:#F00;}
+	
+.diliuge4{
+	font-size:13px;
+	width:300px;
+	float:right;
+	margin-top:10px;}
+	.diliuge4 a{
+	text-decoration:none;}
+.diliuge4 a:hover{
+	text-decoration:underline;
+	color:#F00;}	
+	
+/* 空白 */
+#kongbai{
+	
+	height:50px;
+	float:left;
+}	
+	
+	/*这个是第六行小1*/
+.diliuge1{
+	float:left;
+	width:970px;
+	height:100%;
+}
+
+.diliuge1 a{
+	text-decoration:none;
+}
+.diliuge1 a:hover{
+	text-decoration:underline;
+	color:red;
+}
+	
+.diliuge1 img {
+	margin-left:10px;
+	margin-top:10px;}
+
+.diliuge5{
+	margin-top:12px;}
+	
+	
+	
+	/*这个是第七行*/
+.diqige{
+	width:970px;
+	margin-top:100px;
+	clear:both;
+	}
+.diqige0
+{
+	width:970px;
+	border:1px;
+	border-color:#CCCCCC;
+	border-style:solid;
+
+}
+.diqige1
+{
+	width:950px;
+	height:20px;
+	padding:10px;
+	background-color:BED7EB;
+	border:1px;
+	border-style:solid;
+	}
+.diqige2{
+	width:960px;
+	height:50px;
+	font-size:14px;
+	
+}
+.diqige3{
+	margin-left:20px;
+	margin-top:20px;
+	width:300px;
+	height:20px;
+	
+	}
+.diqige4{
+	margin-left:20px;
+	}
+.textare5{
+	margin-left:20px;
+	margin-top:20px;
+	resize:none;}
+.textare6 img{
+	margin-left:30px;}
+.textare7{
+	margin-left:20px;
+	margin-top:16px;}
+.textare8{
+	width:120px;}
+.textare7 a{
+	font-size:14px;
+	text-decoration:none;}
+.textare7 a:hover{
+	color:#F00;
+	text-decoration:underline;}
+.textare9{
+	margin-left:20px;
+	margin-top:20px;
+	width:80px;
+	height:30px;
+	background-color:#2672BE;}
+
+/*这个是底部
+水平线*/
+.shuipingxian{
+	margin-top:20px;}
+.dibu{
+	height:80px;
+	width:970px;}
+.dibuleft{
+	margin-top:20px;
+	float:left;}
+.diburight{
+	float:right;
+	font-size:14px;
+	margin-top:20px;}
+.diburight a{
+	text-decoration:none;}
+.diburight a:hover{
+	text-decoration:underline;
+	color:#F00;}
+.yonghu{
+	margin-left:700px;
+	width:300px;
+	height:50px;
+	margin-top:-20px;
+}
+	
+/*这个是分页的地方*/
+.fenye{
+	clear:both;
+	margin-left:680px;
+}
+.fenye a{
+	margin-top:70px;
+	text-decoration:none;
+	color:#000000;
+}
+.fenye a:hover{
+	text-decoration:underline;
+	color:red;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
